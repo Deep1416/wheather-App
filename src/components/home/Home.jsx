@@ -35,8 +35,8 @@ const Home = () => {
   };
   return (
     <div className="w-full  border-4 border-black">
-      <div className="flex h-[85vh] ">
-        <div className="w-[20%]  border-r-4 h-full border-black">
+      <div className="flex h-[85vh] flex-wrap md:flex-nowrap ">
+        <div className="md:w-[20%]  border-r-4 h-full border-black w-full">
           <City handleData={handleData} city={city} addCity = {addCity} />
         </div>
         <div className="w-[80%]">
